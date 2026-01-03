@@ -16,6 +16,7 @@
 # next.js
 /.next/
 /out/
+out/
 
 # production
 /build
@@ -39,3 +40,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# Static export artifacts (safety)
+_next/
+index.html
+404.html
+__next*
+_not-found*
